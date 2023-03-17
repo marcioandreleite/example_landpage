@@ -1,0 +1,24 @@
+/* lp-btn */
+.lp-btn {
+    --_size-5_20: 5px 20px;
+    --_size-10: 10px;
+
+    color: var(--cor-four);
+    padding: var(--_size-5_20);
+    font-family: var(--font-two);
+    font-weight: 500;
+    font-size: var(--fontsize-15);
+    border: 2px solid var(--cor-two);
+    border-radius: var(--_size-10);
+    background-color: var(--cor-two);
+    cursor: pointer;
+}
+
+.lp-btn:hover {
+    font-size: var(--fontsize-16);
+    font-weight: 600;
+}
+
+.lp-btn__acao {
+    margin-left: var(--size-20);
+}

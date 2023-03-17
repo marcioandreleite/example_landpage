@@ -1,0 +1,18 @@
+.main_cta .btn {
+    color: var(--colorWhite);
+    background-color: var(--colorOrange);
+    font-size: 1.5rem;
+    padding: 10px 40px 10px 40px;
+    border-radius: 5px;
+}
+
+.main_cta .btn:hover {
+    font-weight: 700;
+    color: var(--colorWhite);
+}
+
+@media(max-width: 480px) {
+    .main_cta article {
+        margin-bottom: var(--distanceOne);
+    }
+}
