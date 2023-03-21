@@ -1,0 +1,104 @@
+@import url('/css/reset.css');
+@import url('/css/global.css');
+@import url('/css/root.css');
+@import url('/css/components/menu.css');
+@import url('/css/components/button.css');
+
+/* pfl-header */
+.pfl-header {
+    width: var(--size-five);
+    height: var(--size-five);
+    color: var(--cor-clear);
+    background-image: url(/img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pfl-header__article {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 300px;
+}
+
+.pfl-header__article h1 {
+    font-size: var(--rem-twelve);
+    font-weight: 700;
+    padding-top: var(--size-nine);
+}
+
+.pfl-header__one-p {
+    padding-top: var(--size-nine);
+    padding-bottom: var(--size-nine);
+    font-size: var(--rem-fiveteen);
+    font-weight: 900;
+}
+
+.pfl-header__two-p {
+    background-color: var(--cor-primary);
+    font-size: var(--rem-eight);
+    font-weight: 700;
+    margin-top: var(--size-twentyseven);
+    padding: var(--size-eight);
+}
+
+.pfl-header__img {
+    width: var(--size-five);
+    margin-top: var(--size-ten);
+    text-align: center;
+}
+
+.pfl-header__img img {
+    width: var(--size-eleven);
+    margin: var(--size-nine);
+}
+
+/*pfl-service */
+.pfl-service {
+    background-color: var(--cor-clear);
+    background-image: url(/img/bg1.jpg);
+    background-size: cover;
+    color: var(--cor-dark);
+}
+
+.pfl-service__article {
+    margin: 0px 300px;
+}
+
+.pfl-service__article article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pfl-service__article div,
+div {
+    margin-top: var(--size-nine);
+    margin-bottom: var(--size-nine);
+    padding: var(--size-six);
+}
+
+.pfl-service__article div h2 {
+    font-weight: 800;
+    font-size: var(--rem-threeteen);
+}
+
+.pfl-service__article div p {
+    font-size: var(--rem-six);
+}
+
+.pfl-service__article div span {
+    font-weight: bold;
+}
+
+.pfl-service__article div,
+img {
+    margin-top: var(--size-nine);
+    margin-bottom: var(--size-nine);
+}
+
+
+.pfl-service img {
+    width: var(--size-twentyseven);
+}

@@ -1,0 +1,13 @@
+.pfl-botton {
+    background-color: var(--cor-primary);
+    border: 0;
+    padding: var(--size-eight);
+    color: var(--cor-clear);
+    font-size: var(--rem-four);
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.pfl-botton:hover {
+    border-left: 10px solid var(--cor-clear);
+}

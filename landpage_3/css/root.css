@@ -1,0 +1,62 @@
+:root {
+    /* color */
+    --cor-bg: #000000;
+    --cor-dark: #0e0d0d;
+    --cor-clear: #ffffff;
+    --cor-primary: #0b504a;
+    --cor-secondary: #fb2d4c;
+
+    /* font */
+    --font-primary: 'Raleway', sans-serif;
+
+    /* size */
+    --size-one: 20%;
+    --size-two: 40%;
+    --size-three: 50%;
+    --size-four: 80%;
+    --size-five: 100%;
+    --size-six: 5px;
+    --size-seven: 10px;
+    --size-eight: 15px;
+    --size-nine: 20px;
+    --size-ten: 40px;
+    --size-eleven: 50px;
+    --size-twelve: 70px;
+    --size-thirteen: 90px;
+    --size-fourteen: 100px;
+    --size-fiveteen: 120px;
+    --size-sixteen: 140px;
+    --size-seventeen: 150px;
+    --size-eightteen: 160px;
+    --size-nineteen: 180px;
+    --size-twenty: 200px;
+    --size-twentyone: 220px;
+    --size-twentytwo: 240px;
+    --size-twentythree: 250px;
+    --size-twentyfour: 270px;
+    --size-twentyfive: 290px;
+    --size-twentysix: 300px;
+    --size-twentyseven: 400px;
+    --size-twentyeight: 500px;
+    --size-twentynine: 1000px;
+    --size-thirty: 1360px;
+
+    /* rem */
+    --rem-one: 0.5rem;
+    --rem-two: 0.6rem;
+    --rem-three: 0.9rem;
+    --rem-four: 1.1rem;
+    --rem-five: 1.2rem;
+    --rem-six: 1.3rem;
+    --rem-seven: 1.4rem;
+    --rem-eight: 1.5rem;
+    --rem-nine: 1.6rem;
+    --rem-ten: 1.7rem;
+    --rem-eleven: 1.8rem;
+    --rem-twelve: 1.9rem;
+    --rem-threeteen: 2rem;
+    --rem-fourteen: 2.5rem;
+    --rem-fiveteen: 3rem;
+    --rem-sixteen: 5rem;
+    --rem-seventeen: 6rem;
+}
